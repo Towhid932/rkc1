@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome RKC</title>
+	<link rel="shortcut icon" href="img/rkc_logo.jpg" type="image/x-icon">
+
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container{
+			height: 100vh;
+			width: 100%;
+			background: #e9ebee;
+		}
+		.header{
+			width: 100%;
+			height: 100px;
+			background: #3b5998;
+		}
+		.header img{
+			margin-left: 13%;
+			margin-top: 25px; 
+		}
+		.sign-btn{
+			background: #42b72a;
+			border: 0;
+			width: 67px;
+			height: 27px;
+			color: #fff;
+			border-radius: 3px;
+			opacity: .9;
+		}
+		.sign-btn:hover{
+			opacity: 1.5;
+		}
+		.myName{
+			padding-top: 20px;
+			font-size: 40px;
+			text-align: center;
+			color: #ff8888;
+			text-align: center;}
+
+		.box{
+			position: absolute;
+			top: 30%;
+			left: 29%;
+			height: 284px;
+			width: 614px;
+			background: #fff;
+			text-align: center;
+			display: inline-block;
+			text-align: center;
+		}
+		.box h5{
+			font-size: 25px;
+			text-align: center;
+		}
+		.txt-mail, .txt-pass{
+			width: 300px;
+			height: 30px;
+			display: block;
+			margin-left: 150px;
+			border: 1px solid #dddfe2;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		input[type=text]{
+			padding-left: 15px; 
+		}
+		.txt-btn{
+			width:310px; 
+			height:50px;
+			border: 0;
+			background: #3b5998;
+			color: #fff;
+			font-weight: bold;
+			margin-bottom: 10px;
+			opacity: .9;
+		}
+		.txt-btn:hover{
+			opacity: 1;
+			cursor: pointer;
+		}
+		.box-link a{
+			text-decoration: none;
+			color: #3b5998;
+		}
+		.box-link a:hover{
+			text-decoration: underline;
+		}
+	</style>
+</head>
+
+
+<body>
+
+	<div class="container">
+		<div class="header">
+			<img src="img/rkc_logo.jpg" height="60" width="100" >
+			<button class="sign-btn">Sign</button>
+		</div>
+		<div class="myName">Mujub-100 Kabaddi Turnament 2021</div>
+			<div class="box">
+				<h5>Log In to RKC</h5>
+				<input type="text" class="txt-mail" placeholder="Email Address or Phone Number" id="userNameId">
+				<input type="text" class="txt-pass" placeholder="Password" id="userPassId">
+				<input type="button" class="txt-btn" value="Log In" onclick="myFunction()">
+			<div class="box-link">
+				<a href="#">Forgotten account?</a>
+				<a href="#">Sign Up for facebook</a>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<script src="rkc2021.js"></script>
+</body>
+</html>
